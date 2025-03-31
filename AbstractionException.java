@@ -19,7 +19,7 @@ class AbstractionException {
 
             int result = num1 / num2;
             System.out.println("Result of division: " + result);
-
+            
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero!");
         } catch (java.util.InputMismatchException e) {
