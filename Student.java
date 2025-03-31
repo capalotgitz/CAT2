@@ -6,7 +6,6 @@ public class Student {
         this.name = name;
         setGrade(grade); // Use setter to ensure grade validation
     }
-
     public String getName() {
         return name;
     }
